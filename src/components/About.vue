@@ -1,49 +1,68 @@
 <template>
+<div>
 <v-row >
       <v-col
        
         background-color="transparent"
       >
-      <h1 class="about">ABOUT ME</h1>
-      <v-container grid-list-xs>
+     
+      <v-container>
+         <h1 class="about">ABOUT ME</h1>
           <v-row>
-            <v-col
-        
-        
-        cols="7"
-        md="2"
-      ></v-col>
-      
-      <v-col
-        
-        
-        cols="7"
-        md="5"
-      >
-       I’m a Data science enthusiast with over 2 years of experience , driven by real world challenges, working in a fast-paced, digitally-oriented environment related to Data driven decision modeling. Operating in an environment driven by Data Science Methodology where I have the accountability to determine the best course of action to meet goals.
+         
+      <v-card> <v-img class="image" :src="require('../assets/logo.jpg')">
+          </v-img>
+      </v-card>
+      <p class="aboutText"> I’m a Data science enthusiast with over 2 years of experience , driven by real world challenges, working in a fast-paced, digitally-oriented environment related to Data driven decision modeling. Operating in an environment driven by Data Science Methodology where I have the accountability to determine the best course of action to meet goals.</p>
        <br>
        <br>
        <v-btn :href="linkedin" color="primary"> Linkedin profile </v-btn>
-      </v-col>
-      <v-col
-        
-        
-        cols="7"
-        md="2"
-      >
-      </v-col>
-          </v-row>
+      
+    </v-row>
          
       </v-container>
       </v-col>
+      
+
 </v-row>
-        
+      <v-container>
+    <Myskill></Myskill>
+  </v-container>
+
+<!-- Working Experience -->
+
+ <v-container>
+      <Experience></Experience>
+    </v-container>
+
+
+    <!-- Certification -->
+
+     <v-container>
+      <Certification></Certification>
+    </v-container>
+  <!-- My Education -->
+
+    <v-container>
+      <Education></Education>
+    </v-container>
+</div>
     
 </template>
 
 <script>
+import Myskill from './Myskil';
+import Education from './Education';
+import Experience from './Experience';
+import Certification from './Certification';
 export default {
     name: 'About',
+    components:{
+      Myskill,
+      Education,
+      Certification,
+      Experience,
+    },
     data(){
         return{
             linkedin:'https://www.linkedin.com/in/muntakimur-rahaman-36a555133/'
@@ -63,17 +82,19 @@ export default {
   }
    .about{
     margin: 100px;
-    font-size: 3em;
+    font-size: 40px;
     font-family: 'Teko',sans-serif;
   }
   .aboutText{
-      font-size: 1.2em;
-      margin: 100px;
+      font-size: 20px;
       font-family: 'Titallium',sans-serif;
       justify-content: center;
       letter-spacing: 1px;
   }
   .linkedin{
           margin: 100px;
+  }
+  .image{
+    transform: scaleX(-1)
   }
   </style>

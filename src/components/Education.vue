@@ -15,7 +15,7 @@
       md="4"
       >
         <v-card
-           outlined         
+           shaped         
         >
          <v-card-title class="customHeadline">B.Sc. COMPUTER SCIENCE AND ENGINEERING </v-card-title>
             <v-divider></v-divider>

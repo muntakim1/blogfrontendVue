@@ -20,7 +20,8 @@
           <v-card-title class="customHeadline">DATA WRANGLING AND PREPROCESSING</v-card-title>
             <v-divider></v-divider>
             <!-- <v-card-subtitle>Listen to your favorite artists and albums whenever and wherever, online and offline.</v-card-subtitle> -->
-            <v-card-text class="customText">Cleaning data and prepare data for analysis. Have sound experience in working with unstructured, structured and semi-structured data. And also have experience in ETL process.<br> </v-card-text>
+            <v-card-text class="customText">Cleaning data and prepare data for analysis. 
+              Have sound experience in working with unstructured, structured and semi-structured data. And also have experience in ETL process.<br> </v-card-text>
         </v-card>
       </v-col>
       <v-col
@@ -37,7 +38,8 @@
            <v-card-title class="customHeadline">BUSINESS ANALYST</v-card-title>
             <v-divider></v-divider>
             <!-- <v-card-subtitle>Listen to your favorite artists and albums whenever and wherever, online and offline.</v-card-subtitle> -->
-            <v-card-text class="customText"><b>PwC</b> certified Business data analyst and business model developer using tools like <b>Excel</b>, <b>Tableau</b> and <b>Power BI</b>.<br><br> </v-card-text>
+            <v-card-text class="customText"><b>PwC</b> certified Business data analyst
+             and business model developer using tools like <b>Excel</b>, <b>Tableau</b> and <b>Power BI</b>.<br><br> <br></v-card-text>
         </v-card>
       </v-col>
       <v-col
@@ -54,7 +56,8 @@
           <v-card-title class="customHeadline">BIG DATA PROCESSING</v-card-title>
             <v-divider></v-divider>
             <!-- <v-card-subtitle>Listen to your favorite artists and albums whenever and wherever, online and offline.</v-card-subtitle> -->
-            <v-card-text class="customText"><b>Cloudera</b> Certified BIG data specialist.  Analyzing and processing a large amount of data using the Hadoop framework and Kafka, impala, hive, hue. Also, have experience in RDD and pyspark.  </v-card-text>
+            <v-card-text class="customText"><b>Cloudera</b> Certified BIG data specialist.  Analyzing and processing a large amount of 
+            data using the Hadoop framework and Kafka, impala, hive, hue. Also, have experience in RDD and pyspark.<br><br>  </v-card-text>
        
         </v-card>
       </v-col>
@@ -153,7 +156,7 @@
             <!-- <v-card-subtitle>Listen to your favorite artists and albums whenever and wherever, online and offline.</v-card-subtitle> -->
             <v-card-text class="customText">I have successfully completed some courses from both udemy and coursera on DevOps. 
                 I know how containerization and Container Orchestration. I have hands on experience in Docker("pythonBaba" docker hub id), docker swarm and Kubernates kubectl. 
-                I also have experience in CircleCI and Jenkins. <br><br><br></v-card-text>
+                I also have experience in CircleCI and Jenkins. <br></v-card-text>
         </v-card>
       </v-col>
       <v-col

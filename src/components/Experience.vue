@@ -15,7 +15,7 @@
       >
         <v-card
           class="pa-2"
-          outlined
+          shaped
           tile
         >
           <v-card-title class="customHeadline">Kaggle Competitor.</v-card-title>
@@ -34,7 +34,7 @@
       >
         <v-card
           class="pa-2"
-          outlined
+          shaped
           tile
         >
           <v-card-title class="customHeadline">Contest Programmer.</v-card-title>
@@ -52,13 +52,13 @@
       >
         <v-card
           class="pa-2"
-          outlined
+          shaped
           tile
         >
           <v-card-title class="customHeadline">PROBLEM SETTER OF INTER UNIVERSITY CONTESTS.</v-card-title>
             <v-divider></v-divider>
             <v-card-subtitle>BAIUST PROGRAMMERS ALLIANCE / JUN 2018 - May 2019</v-card-subtitle> 
-            <v-card-text class="customText">I was a problem setter in the inter-university programming contest in hackerrank platform. <br> <br><br></v-card-text>
+            <v-card-text class="customText">I was a problem setter in the inter-university programming contest in hackerrank platform.<br> <br></v-card-text>
        
         </v-card>
       </v-col>
