@@ -4,7 +4,7 @@
 
         <v-col
           v-for="item in posts"
-          :key="item"
+          :key="item.key"
          :cols="3"
           
         >
@@ -15,7 +15,7 @@
     <v-img
       class="white--text align-end"
       height="200px"
-      src="item.photo"
+      :src= item.photo
     >
       <v-card-title>{{item.title}}</v-card-title>
     </v-img>
@@ -66,6 +66,7 @@ export default {
   created() {
     axios.get(`http://secret-headland-91144.herokuapp.com/blog/`)
     .then(response => {  
+      console.log(response.data)
       this.posts = response.data
     })
     .catch(e => {

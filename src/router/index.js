@@ -36,6 +36,13 @@ const routes = [
   
     component: () => import('../views/Contact.vue')
   },
+  {
+    path: '/single-blog/',
+    name: 'single-blog',
+  
+    component: () => import('../views/singleBlog.vue')
+  },
+
   
 ]
 
@@ -44,5 +51,6 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
+
 
 export default router
