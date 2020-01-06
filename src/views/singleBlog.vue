@@ -23,7 +23,9 @@
          <v-col md="3" sm="2" style="height:25%">
            <img :src=post.photo alt="" style='height:250px;width:auto;position:relative;display:flex'>
          </v-col>
-         <p>{{post.body}}</p>
+         <div style="height:100%;white-space: pre-wrap;">
+           {{post.body}}
+          </div>
        </v-row>
       
          
@@ -56,13 +58,13 @@ export default {
     .then(response => {
       
       this.post = response.data
-      console.log(response.data)
+     
     })
     .catch(e => {
       this.errors.push(e)
     }),
     axios.get(`http://secret-headland-91144.herokuapp.com/cateogry/`).then(response=>{
-      console.log(response.data[0])
+      
       this.category = response.data
     }).catch(e=>{
       this.errors.push(e)

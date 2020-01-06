@@ -80,14 +80,14 @@ export default {
     
     axios.get(`http://secret-headland-91144.herokuapp.com/blog/`)
     .then(response => {  
-      console.log(response.data)
+      
       this.posts = response.data
     })
     .catch(e => {
       this.errors.push(e)
     }),
     axios.get(`http://secret-headland-91144.herokuapp.com/cateogry/`).then(response=>{
-      console.log(response.data[0])
+     
       this.category = response.data
     }).catch(e=>{
       this.errors.push(e)
