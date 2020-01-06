@@ -2,9 +2,7 @@
   <v-app>
     <v-app-bar app dark>
       
-      <v-toolbar-title style="text-shadow: 1px 1px 2px black; ">
-        Muntakim's Blog
-        </v-toolbar-title>
+     <b-navbar-brand href="/" style="text-decoration:none;color:white">Muntakim's Blog</b-navbar-brand>
          <v-spacer></v-spacer>
         <v-toolbar-items>
         
@@ -12,6 +10,7 @@
       <template v-slot:activator="{ on }">
         <v-btn
           v-on="on"
+          text
         >
           Resume
         </v-btn>

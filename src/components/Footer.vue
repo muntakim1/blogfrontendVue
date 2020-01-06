@@ -12,7 +12,7 @@
         <strong class="subheading">Get connected with us on social networks!</strong>
 
         <v-spacer></v-spacer>
-
+      
         <v-btn
           v-for="icon in icons"
           :key="icon.key"

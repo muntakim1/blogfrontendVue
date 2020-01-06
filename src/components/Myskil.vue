@@ -1,11 +1,11 @@
 <template>
-<v-row >
+<v-row dense >
       <v-col
        
         background-color="transparent"
       >
       <h1 class="about">My SkillS</h1>
-      <v-container grid-list-xs>
+      <b-container>
           <v-row>
       <v-col
         
@@ -21,7 +21,7 @@
             <v-divider></v-divider>
             <!-- <v-card-subtitle>Listen to your favorite artists and albums whenever and wherever, online and offline.</v-card-subtitle> -->
             <v-card-text class="customText">Cleaning data and prepare data for analysis. 
-              Have sound experience in working with unstructured, structured and semi-structured data. And also have experience in ETL process.<br> </v-card-text>
+              Have sound experience in working with unstructured, structured and semi-structured data. And also have experience in ETL process. <br> </v-card-text>
         </v-card>
       </v-col>
       <v-col
@@ -156,7 +156,8 @@
             <!-- <v-card-subtitle>Listen to your favorite artists and albums whenever and wherever, online and offline.</v-card-subtitle> -->
             <v-card-text class="customText">I have successfully completed some courses from both udemy and coursera on DevOps. 
                 I know how containerization and Container Orchestration. I have hands on experience in Docker("pythonBaba" docker hub id), docker swarm and Kubernates kubectl. 
-                I also have experience in CircleCI and Jenkins. <br></v-card-text>
+                I also have experience in CircleCI and Jenkins. <br><br>
+<br></v-card-text>
         </v-card>
       </v-col>
       <v-col
@@ -178,7 +179,7 @@
         </v-card>
       </v-col>
     </v-row>
-      </v-container>
+      </b-container>
       </v-col>
    
     </v-row>

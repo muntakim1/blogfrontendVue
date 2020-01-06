@@ -37,9 +37,9 @@ const routes = [
     component: () => import('../views/Contact.vue')
   },
   {
-    path: '/single-blog/',
+    path: '/single-blog/:id-:slug',
     name: 'single-blog',
-  
+    props: true,
     component: () => import('../views/singleBlog.vue')
   },
 

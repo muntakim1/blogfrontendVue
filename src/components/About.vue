@@ -1,6 +1,6 @@
 <template>
 <div>
-<v-row >
+<v-row dense>
       <v-col
        
         background-color="transparent"
@@ -25,6 +25,7 @@
       
 
 </v-row>
+
       <v-container>
     <Myskill></Myskill>
   </v-container>
